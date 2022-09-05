@@ -17,7 +17,7 @@ public class FirstTestCode {
        // driver.close();
         //System.out.println("Browser kapatma");
         driver.get("https://demoqa.com/text-box");
-
+  //element find
         WebElement nameElement = driver.findElement(By.id("userName"));
         nameElement.click();
         nameElement.sendKeys("Ayberk");
